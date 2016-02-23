@@ -1,0 +1,453 @@
+/*
+Theme Name: KingSize Child Theme
+Theme URI: http://themeforest.net/user/Denoizzed
+Template: kingsize
+Description: KingSize WordPress: Designed by <a href="http://www.denoizzed.com">Denoizzed</a> and Developed into WordPress by <a href="http://www.ourwebmedia.com">OurWebMedia</a>
+Author: Denoizzed &amp; Our Web Media
+URL:  http://themeforest.net/user/Denoizzed
+Author URI: http://themeforest.net/user/Denoizzed
+Version: 1.0
+License:
+License URI:
+*/
+
+.menu {
+    background-image: url(images/menu_back.png);
+}
+
+html .menu_hidden {
+    background: url(images/menu_hide_arrow_bottom.png) no-repeat top left;
+}
+
+#menu_wrap {
+    left: 0px;
+}
+body .container {
+    background-image: none;
+    background: rgba(255,255,255,0.9);
+    color: black;
+}
+html h2.title-page, html h3.widget-title {
+    color: black;
+}
+html p, html body, html h1 {
+    color: black;
+}
+
+html a, html .more-link {
+    color: blue;
+}
+html a:hover, html .more-link:focus, html a:focus, html .more-link:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.fa-facebook-square:before,
+.fa-wordpress:before,
+.fa-youtube-square:before {
+    color: black;
+}
+
+.container .post h3 a,
+.container h3.post_title a {
+    color: black;
+}
+
+.container .post h3 a:hover,
+.container h3.post_title a:hover,
+.container .post h3 a:focus,
+.container h3.post_title a:focus {
+    color: black;
+    text-decoration: underline;
+}
+
+html .container .more-link {
+    background-color: #eee;
+    border-color: #aaa;
+}
+
+.portfolio_thumb img {
+    border: 1px solid black;
+}
+
+html .accordion div.accordion_content {
+    background-color: transparent;
+}
+
+.container .accordion div.accordion_head,
+.container .accordion div.accordion_head.active_acc a {
+    background-color: #ddd;
+}
+
+.container .accordion div.accordion_head a {
+    background-image: none;
+    position: relative;
+}
+
+.accordion div.accordion_head a:after {
+    position: absolute;
+    content: "+";
+    left: 100%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #222;
+    margin-left: -1em;
+    font-family: sans, sans-serif;
+    line-height: 2em;
+}
+
+.container .accordion div.accordion_head.active_acc a:after {
+    content: "";
+}
+
+.container .inputbox {
+    background-color: white;
+    color: black;
+}
+.container .inputbox:focus {
+    background-color: rgba(255,255,0,0.5);
+    color: black;
+}
+
+.container .tabs li a {
+    background-color: #ddd;
+}
+.container .tabs li a:hover,
+.container .tabs li a:active {
+    background-color: #eee;
+    text-decoration: none;
+}
+.container .tabs li.active a {
+    background-color: white;
+}
+
+.container .tab_container {
+    background-color: white;
+}
+
+.container .panel-info {
+    background-color: rgba(255,255,0,0.25);
+}
+
+html .tooltip_custom_right {
+    line-height: 1.5em;
+}
+
+
+/*
+Theme Name: KingSize Child Theme
+Theme URI: http://themeforest.net/user/Denoizzed
+Template: kingsize
+Description: KingSize WordPress: Designed by <a href="http://www.denoizzed.com">Denoizzed</a> and Developed into WordPress by <a href="http://www.ourwebmedia.com">OurWebMedia</a>
+Author: Denoizzed &amp; Our Web Media
+URL:  http://themeforest.net/user/Denoizzed
+Author URI: http://themeforest.net/user/Denoizzed
+Version: 1.0
+License:
+License URI:
+*/
+
+.menu {
+    background-image: url(images/menu_back.png);
+}
+
+html .menu_hidden {
+    background: url(images/menu_hide_arrow_bottom.png) no-repeat top left;
+}
+
+#menu_wrap {
+    left: 0px;
+}
+body .container {
+    background-image: none;
+    background: rgba(255,255,255,0.9);
+    color: black;
+}
+html h2.title-page, html h3.widget-title {
+    color: black;
+}
+html p, html body, html h1 {
+    color: black;
+}
+
+html a, html .more-link {
+    color: blue;
+}
+html a:hover, html .more-link:focus, html a:focus, html .more-link:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.fa-facebook-square:before,
+.fa-wordpress:before,
+.fa-youtube-square:before {
+    color: black;
+}
+.container .post h3 a,
+.container h3.post_title a {
+    color: black;
+}
+
+.container .post h3 a:hover,
+.container h3.post_title a:hover,
+.container .post h3 a:focus,
+.container h3.post_title a:focus {
+    color: black;
+    text-decoration: underline;
+}
+
+html .container .more-link {
+    background-color: #eee;
+    border-color: #aaa;
+}
+
+.portfolio_thumb img {
+    border: 1px solid black;
+}
+
+html .accordion div.accordion_content {
+    background-color: transparent;
+}
+
+.container .accordion div.accordion_head,
+.container .accordion div.accordion_head.active_acc a {
+    background-color: #ddd;
+}
+.container .accordion div.accordion_head a {
+    background-image: none;
+    position: relative;
+}
+
+.accordion div.accordion_head a:after {
+    position: absolute;
+    content: "+";
+    left: 100%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #222;
+    margin-left: -1em;
+    font-family: sans, sans-serif;
+    line-height: 2em;
+}
+
+.container .accordion div.accordion_head.active_acc a:after {
+    content: "";
+}
+
+.container .inputbox {
+    background-color: white;
+    color: black;
+}
+.container .inputbox:focus {
+    background-color: rgba(255,255,0,0.5);
+    color: black;
+}
+.container .tabs li a {
+    background-color: #ddd;
+}
+.container .tabs li a:hover,
+.container .tabs li a:active {
+    background-color: #eee;
+    text-decoration: none;
+}
+.container .tabs li.active a {
+    background-color: white;
+}
+.container .tab_container {
+    background-color: white;
+}
+.container .panel-info {
+    background-color: rgba(255,255,0,0.25);
+}
+
+html .tooltip_custom_right {
+    line-height: 1.5em;
+}
+
+/* use CSS to replace arrow image used in show and hide menu function from mother theme to child theme */
+
+#arrowLink img[src*=menu_hide_arrow_bottom], #arrowLink img[src*=menu_hide_arrow_top] {
+    display: inline-block;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    width: 48px;
+    height: 48px;
+    padding-left: 48px;
+}
+
+#arrowLink img[src*=menu_hide_arrow_bottom] {
+    background-image: url('images/menu_hide_arrow_bottom.png');
+
+
+}
+#arrowLink img[src*=menu_hide_arrow_top] {
+    background-image: url('images/menu_hide_arrow_top.png');
+}
+
+/* Menu links styles */
+html #navContainer h5 {
+    color: black;
+}
+html #mainNavigation ul li a {
+    padding-right: 0;
+}
+html #navContainer a {
+    text-decoration: none;
+}
+html #mainNavigation ul li {
+    margin: 0;
+    padding: 0;
+}
+html #mainNavigation > ul > li a h5 {
+    padding: .75em .5em;
+    margin: 0;
+}
+html #mainNavigation > ul > li a:hover h5,
+html #mainNavigation > ul > li a:focus h5,
+html #mainNavigation ul li ul.sub-menu a:hover,
+html #mainNavigation ul li ul.sub-menu a:focus {
+    background-color: white;
+}
+
+html #mainNavigation > ul > li > a:hover,
+html #mainNavigation > ul > li > a:focus {
+    position: relative;
+    z-index: 1;
+}
+html #mainNavigation ul li.no_desc:hover::after,
+html #mainNavigation > ul > li > a:hover::after,
+html #mainNavigation > ul > li > a:focus::after {
+    position: absolute;
+    content: ">";
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 2em;
+    display: inline;
+    width: 1.5em;
+    height: 1.9em;
+    top: -1px;
+    left: 100%;
+    margin: auto;
+    margin-left: -.25em;
+    background-color: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+html #mainNavigation ul li.no_desc:hover::before,
+html #mainNavigation > ul > li > a:hover::before,
+html #mainNavigation > ul > li > a:focus::before {
+    position: absolute;
+    content: "";
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 2em;
+    display: inline;
+    width: 1.25em;
+    height: 1.9em;
+    top: -1px;
+    right: 100%;
+    margin: auto;
+    background-color: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+#mainNavigation ul li:hover {
+    position: relative;
+}
+
+#mainNavigation ul li a:hover > ul, #mainNavigation ul li:focus > ul {
+    display: block;
+    border: none;
+    opacity: 1;
+    background-color: #cfcfcf;
+}
+
+html #mainNavigation .mainNav ul.sub-menu {
+    margin: 0;
+    left: 100%;
+    top: 0;
+    border: none;
+    border-top: 1px solid black;
+    font-size: 1em;
+    margin-top: -1px;
+    margin-left: 2.5em;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 999;
+    opacity: 1;
+    background-color: transparent;
+}
+
+html #mainNavigation ul li.mainNav ul.sub-menu a {
+    color: black;
+    font-size: 1.5em !important;
+    position: relative;
+    top: -1px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+html #mainNavigation ul li.mainNav ul.sub-menu li a {
+    border-top: 1px solid black;
+}
+html #mainNavigation ul li.mainNav ul.sub-menu li:last-child a {
+    border-bottom: 1px solid black;
+}
+html #mainNavigation ul li.mainNav ul.sub-menu a::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: -2.5em;
+    right: 95%;
+    background-color: transparent;
+}
+
+#mainNavigation .sub-menu li {
+    padding: 0;
+    border: 0;
+}
+#mainNavigation .sub-menu li a {
+    border-bottom: 1px solid transparent;
+    margin: 0;
+    padding: 0.5em;
+    padding-left: 1.5em;
+    background-color: #ddd;
+}
+
+
+html #mainNavigation ul li.no_desc:hover {
+    background: white;
+    background-image: none;
+    position: relative;
+}
+
+html #mainNavigation li.current-menu-item h5 {
+    color: black;
+    font-weight: bold;
+    background-color: rgba(255,255,128,0.5);
+    box-sizing: border-box;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+html #mainNavigation li.current-menu-item h5:not(:hover) {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+html #mainNavigation li.current-menu-item h5:hover {
+    color: black;
+    font-weight: bold;
+}
