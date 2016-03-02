@@ -12,6 +12,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: nasjonale-minoriteter
 */
 
+html #mainNavigation ul li a {width: auto;}
+
 .menu {
     background-image: url(images/menu_back.png);
 }
