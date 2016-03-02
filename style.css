@@ -1,14 +1,15 @@
 /*
-Theme Name: KingSize Child Theme
+Theme Name: Nasjonale Minoriteter 2016-03 - KingSize child
 Theme URI: http://themeforest.net/user/Denoizzed
 Template: kingsize
 Description: KingSize WordPress: Designed by <a href="http://www.denoizzed.com">Denoizzed</a> and Developed into WordPress by <a href="http://www.ourwebmedia.com">OurWebMedia</a>
 Author: Denoizzed &amp; Our Web Media
 URL:  http://themeforest.net/user/Denoizzed
 Author URI: http://themeforest.net/user/Denoizzed
-Version: 1.0
-License:
-License URI:
+Version: 1.0.3
+License: GNU General Public License v2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: nasjonale-minoriteter
 */
 
 .menu {
@@ -296,6 +297,7 @@ html #navContainer h5 {
 }
 html #mainNavigation ul li a {
     padding-right: 0;
+
 }
 html #navContainer a {
     text-decoration: none;
@@ -307,22 +309,32 @@ html #mainNavigation ul li {
 html #mainNavigation > ul > li a h5 {
     padding: .75em .5em;
     margin: 0;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
 }
+
+html #mainNavigation > ul > li a:hover h5,
+html #mainNavigation > ul > li:hover h5,
+html #mainNavigation > ul > a:focus h5{
+    border-color: black;
+}
+
 html #mainNavigation > ul > li a:hover h5,
 html #mainNavigation > ul > li a:focus h5,
 html #mainNavigation ul li ul.sub-menu a:hover,
 html #mainNavigation ul li ul.sub-menu a:focus {
-    background-color: white;
+    background-color: rgb(255,255,128);
 }
+
 
 html #mainNavigation > ul > li > a:hover,
 html #mainNavigation > ul > li > a:focus {
     position: relative;
     z-index: 1;
 }
-html #mainNavigation ul li.no_desc:hover::after,
-html #mainNavigation > ul > li > a:hover::after,
-html #mainNavigation > ul > li > a:focus::after {
+html #mainNavigation ul li.no_desc.menu-item-has-children:hover::after,
+html #mainNavigation > ul > li.menu-item-has-children > a:hover::after,
+html #mainNavigation > ul > li.menu-item-has-children > a:focus::after {
     position: absolute;
     content: ">";
     color: black;
@@ -331,36 +343,42 @@ html #mainNavigation > ul > li > a:focus::after {
     line-height: 2em;
     display: inline;
     width: 1.5em;
-    height: 1.9em;
     top: -1px;
+    bottom:-1px;
     left: 100%;
     margin: auto;
     margin-left: -.25em;
     background-color: white;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+
 }
 
-html #mainNavigation ul li.no_desc:hover::before,
+html #mainNavigation > ul > li.menu-item-has-children > a:hover::after,
+html #mainNavigation > ul > li.menu-item-has-children > a:focus::after {
+     background-color: rgb(255,255,128);
+}
+
+/*html #mainNavigation ul li.no_desc:hover::before,
 html #mainNavigation > ul > li > a:hover::before,
 html #mainNavigation > ul > li > a:focus::before {
     position: absolute;
     content: "";
-    color: black;
-    font-weight: bold;
-    font-size: 2em;
-    line-height: 2em;
+   color: black;
+   font-weight: bold;
+   font-size: 2em;
+   line-height: 2em;
     display: inline;
-    width: 1.25em;
+    width: 0em;
     height: 1.9em;
     top: -1px;
-    right: 100%;
+    left:0;
     margin: auto;
     background-color: white;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    border-left: 1px solid black;
-}
+   border-left: 1px solid black;
+}*/
 
 #mainNavigation ul li:hover {
     position: relative;
@@ -421,9 +439,9 @@ html #mainNavigation ul li.mainNav ul.sub-menu a::after {
 #mainNavigation .sub-menu li a {
     border-bottom: 1px solid transparent;
     margin: 0;
-    padding: 0.5em;
+    padding: 0.5em;         
     padding-left: 1.5em;
-    background-color: #ddd;
+    background-color: white;
 }
 
 
@@ -436,18 +454,9 @@ html #mainNavigation ul li.no_desc:hover {
 html #mainNavigation li.current-menu-item h5 {
     color: black;
     font-weight: bold;
-    background-color: rgba(255,255,128,0.5);
-    box-sizing: border-box;
-    border-left: 1px solid transparent;
-    border-right: 1px solid transparent;
-}
-
-html #mainNavigation li.current-menu-item h5:not(:hover) {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    text-decoration:underline;
 }
 
 html #mainNavigation li.current-menu-item h5:hover {
-    color: black;
-    font-weight: bold;
+    text-decoration:underline;
 }
