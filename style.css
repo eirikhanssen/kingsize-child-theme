@@ -303,7 +303,6 @@ html #mainNavigation ul li.mainNav ul.sub-menu a::after {
     border-bottom: 1px solid transparent;
     margin: 0;
     padding: 0.5em;
-    padding-left: 1.5em;
     background-color: white;
 }
 
