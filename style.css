@@ -166,6 +166,9 @@ html .tooltip_custom_right {
 html #navContainer h5 {
     color: black;
 }
+#navContainer h5.title-page {
+  font-weight:bold;
+}
 html #mainNavigation ul li a {
     padding-right: 0;
 
